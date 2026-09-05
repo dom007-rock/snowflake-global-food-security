@@ -1,1 +1,5 @@
 1. Snowflake: https://9rjj6kfe.r.ap-southeast-2.awstrack.me/L0/https:%2F%2Flmrwjog-cc23502.snowflakecomputing.com/2/010801a0503dd219-d7a548db-a1f9-4776-ab5f-f8a60369471f-000000/pGHhi-Ab3gGyE1wBg59LG72OE5A=258
+
+2. Env Commands
+	python -m venv .venv
+	.\.venv\Scripts\Activate.ps1
