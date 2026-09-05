@@ -5,7 +5,7 @@ import requests
 from dotenv import load_dotenv
 
 
-load_dotenv()
+load_dotenv(override=True)
 
 
 class FAOSTATClient:
@@ -41,6 +41,12 @@ class FAOSTATClient:
             timeout=timeout,
         )
 
-        response.raise_for_status()
+        if not response.ok:
+            raise RuntimeError(
+                "FAOSTAT API request failed. "
+                f"status={response.status_code}, "
+                f"url={response.url}, "
+                f"response={response.text[:500]}"
+            )
 
         return response.json()
