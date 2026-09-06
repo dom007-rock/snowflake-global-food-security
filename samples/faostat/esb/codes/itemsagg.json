@@ -1,0 +1,22 @@
+[
+  {
+    "label":"Input + (Total)",
+    "code":"5079",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Outputs + (Total)",
+    "code":"5080",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Nutrient balance + (Total)",
+    "code":"5081",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Nutrient balance > (List)",
+    "code":"5081>",
+    "aggregate_type":">"
+  }
+]

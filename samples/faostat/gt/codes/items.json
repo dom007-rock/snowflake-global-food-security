@@ -1,0 +1,152 @@
+[
+  {
+    "label":"Crop Residues",
+    "code":"5064",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Rice Cultivation",
+    "code":"5060",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Burning - Crop residues",
+    "code":"5066",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Enteric Fermentation",
+    "code":"5058",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Manure Management",
+    "code":"5059",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Manure left on Pasture",
+    "code":"5063",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Manure applied to Soils",
+    "code":"5062",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Synthetic Fertilizers",
+    "code":"5061",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Drained organic soils",
+    "code":"6729",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"On-farm energy use",
+    "code":"6994",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Forestland",
+    "code":"6751",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Net Forest conversion",
+    "code":"6750",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Savanna fires",
+    "code":"6795",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Fires in organic soils",
+    "code":"6993",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Forest fires",
+    "code":"6992",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Agrifood Systems Waste Disposal",
+    "code":"6991",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Fertilizers Manufacturing",
+    "code":"6504",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Pesticides Manufacturing",
+    "code":"6997",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Food Processing",
+    "code":"6507",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Food Packaging",
+    "code":"6506",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Food Retail",
+    "code":"6508",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Food Household Consumption",
+    "code":"6505",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Food Transport",
+    "code":"6815",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Other sectors + (Total)",
+    "code":"6966",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Other sectors > (List)",
+    "code":"6966>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Energy",
+    "code":"6821",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- IPPU",
+    "code":"6817",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Waste",
+    "code":"6818",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- International bunkers",
+    "code":"6820",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Other",
+    "code":"6819",
+    "aggregate_type":"0"
+  }
+]

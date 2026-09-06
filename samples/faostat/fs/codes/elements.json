@@ -1,0 +1,12 @@
+[
+  {
+    "label":"Value",
+    "code":"6120",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Confidence interval",
+    "code":"6210",
+    "aggregate_type":"0"
+  }
+]

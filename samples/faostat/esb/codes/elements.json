@@ -1,0 +1,47 @@
+[
+  {
+    "label":"Cropland nitrogen",
+    "code":"7275",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cropland nitrogen per unit area",
+    "code":"7276",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cropland phosphorus",
+    "code":"7280",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cropland phosphorus per unit area",
+    "code":"7281",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cropland potassium",
+    "code":"7282",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cropland potassium per unit area",
+    "code":"7283",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cropland nitrogen use efficiency",
+    "code":"7290",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cropland phosphorus use efficiency",
+    "code":"7291",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cropland potassium use efficiency",
+    "code":"7292",
+    "aggregate_type":"0"
+  }
+]

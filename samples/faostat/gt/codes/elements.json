@@ -1,0 +1,47 @@
+[
+  {
+    "label":"Emissions (CH4)",
+    "code":"7225",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Direct emissions (N2O)",
+    "code":"7234",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Indirect emissions (N2O)",
+    "code":"7236",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Emissions (N2O)",
+    "code":"7230",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Emissions (CO2)",
+    "code":"7273",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Emissions (CO2eq) from F-gases (AR5)",
+    "code":"717815",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Emissions (CO2eq) from CH4 (AR5)",
+    "code":"724413",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Emissions (CO2eq) from N2O (AR5)",
+    "code":"724313",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Emissions (CO2eq) (AR5)",
+    "code":"723113",
+    "aggregate_type":"0"
+  }
+]

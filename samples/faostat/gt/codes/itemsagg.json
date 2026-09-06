@@ -1,0 +1,202 @@
+[
+  {
+    "label":"FAO aggregates > (List)",
+    "code":"6967>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Agrifood systems + (Total)",
+    "code":"6518",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Agrifood systems > (List)",
+    "code":"6518>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Farm gate + (Total)",
+    "code":"6996",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Farm gate > (List)",
+    "code":"6996>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Land-use change + (Total)",
+    "code":"6516",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Land-use change > (List)",
+    "code":"6516>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Pre- and post-production + (Total)",
+    "code":"6517",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Pre- and post-production > (List)",
+    "code":"6517>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Emissions on agricultural land + (Total)",
+    "code":"6995",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Emissions on agricultural land > (List)",
+    "code":"6995>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Emissions from crops + (Total)",
+    "code":"5084",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Emissions from crops > (List)",
+    "code":"5084>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Emissions from livestock + (Total)",
+    "code":"5085",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Emissions from livestock > (List)",
+    "code":"5085>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Farm gate + (Total)",
+    "code":"6996",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Farm gate > (List)",
+    "code":"6996>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Land-use change + (Total)",
+    "code":"6516",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Land-use change > (List)",
+    "code":"6516>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Pre- and post-production + (Total)",
+    "code":"6517",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Pre- and post-production > (List)",
+    "code":"6517>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"IPCC aggregates > (List)",
+    "code":"6968>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- IPCC Agriculture + (Total)",
+    "code":"1711",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- IPCC Agriculture > (List)",
+    "code":"1711>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Agricultural Soils + (Total)",
+    "code":"1709",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Agricultural Soils > (List)",
+    "code":"1709>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- LULUCF + (Total)",
+    "code":"1707",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- LULUCF > (List)",
+    "code":"1707>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- AFOLU + (Total)",
+    "code":"6824",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- AFOLU > (List)",
+    "code":"6824>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- All sectors with LULUCF + (Total)",
+    "code":"6825",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- All sectors with LULUCF > (List)",
+    "code":"6825>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- All sectors without LULUCF + (Total)",
+    "code":"6829",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- All sectors without LULUCF > (List)",
+    "code":"6829>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- IPCC Agriculture + (Total)",
+    "code":"1711",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- IPCC Agriculture > (List)",
+    "code":"1711>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- LULUCF + (Total)",
+    "code":"1707",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- LULUCF > (List)",
+    "code":"1707>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- IPCC Agriculture + (Total)",
+    "code":"1711",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- IPCC Agriculture > (List)",
+    "code":"1711>",
+    "aggregate_type":">"
+  }
+]

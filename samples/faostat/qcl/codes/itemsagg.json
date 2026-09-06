@@ -1,0 +1,277 @@
+[
+  {
+    "label":"Cereals, primary + (Total)",
+    "code":"1717",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Cereals, primary > (List)",
+    "code":"1717>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Citrus Fruit, Total + (Total)",
+    "code":"1804",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Citrus Fruit, Total > (List)",
+    "code":"1804>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Crops, primary > (List)",
+    "code":"1714>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Fibre Crops Primary > (List)",
+    "code":"1753>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Fibre Crops, Fibre Equivalent + (Total)",
+    "code":"17530",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Fruit Primary + (Total)",
+    "code":"1738",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Fruit Primary > (List)",
+    "code":"1738>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Oilcrops Primary > (List)",
+    "code":"1730>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Oilcrops, Cake Equivalent + (Total)",
+    "code":"1841",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Oilcrops, Oil Equivalent + (Total)",
+    "code":"1732",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Pulses, Total + (Total)",
+    "code":"1726",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Pulses, Total > (List)",
+    "code":"1726>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Roots and Tubers, Total + (Total)",
+    "code":"1720",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Roots and Tubers, Total > (List)",
+    "code":"1720>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Sugar Crops Primary + (Total)",
+    "code":"1723",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Sugar Crops Primary > (List)",
+    "code":"1723>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Treenuts, Total + (Total)",
+    "code":"1729",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Treenuts, Total > (List)",
+    "code":"1729>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Vegetables Primary + (Total)",
+    "code":"1735",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Vegetables Primary > (List)",
+    "code":"1735>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Crops, primary > (List)",
+    "code":"QC>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Crops Processed > (List)",
+    "code":"QD>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Beef and Buffalo Meat, primary + (Total)",
+    "code":"1806",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Beef and Buffalo Meat, primary > (List)",
+    "code":"1806>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Eggs Primary + (Total)",
+    "code":"1783",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Eggs Primary > (List)",
+    "code":"1783>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Hides and skins, primary > (List)",
+    "code":"1777>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Meat, Poultry + (Total)",
+    "code":"1808",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Meat, Poultry > (List)",
+    "code":"1808>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Meat, Total + (Total)",
+    "code":"1765",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Meat, Total > (List)",
+    "code":"1765>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Milk, Total + (Total)",
+    "code":"1780",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Milk, Total > (List)",
+    "code":"1780>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Sheep and Goat Meat + (Total)",
+    "code":"1807",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Sheep and Goat Meat > (List)",
+    "code":"1807>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Livestock primary > (List)",
+    "code":"QL>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Butter and Ghee + (Total)",
+    "code":"1811",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Butter and Ghee > (List)",
+    "code":"1811>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Cheese (All Kinds) + (Total)",
+    "code":"1745",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Cheese (All Kinds) > (List)",
+    "code":"1745>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Evaporated & Condensed Milk + (Total)",
+    "code":"1816",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Evaporated & Condensed Milk > (List)",
+    "code":"1816>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Skim Milk & Buttermilk, Dry + (Total)",
+    "code":"1809",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Skim Milk & Buttermilk, Dry > (List)",
+    "code":"1809>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Livestock processed > (List)",
+    "code":"QP>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Cattle and Buffaloes + (Total)",
+    "code":"1746",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Cattle and Buffaloes > (List)",
+    "code":"1746>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Live Animals > (List)",
+    "code":"1756>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Poultry Birds + (Total)",
+    "code":"2029",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Poultry Birds > (List)",
+    "code":"2029>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Sheep and Goats + (Total)",
+    "code":"1749",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Sheep and Goats > (List)",
+    "code":"1749>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Live Animals > (List)",
+    "code":"QA>",
+    "aggregate_type":">"
+  }
+]

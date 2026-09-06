@@ -1,0 +1,225 @@
+Domain Code,Domain,Area Code (ISO3),Area,Element Code,Element,Item Code,Item,Year Code,Year,Unit,Value,Flag,Flag Description
+LC,Land Cover,IND,India,5006,Area from CGLS,6970,Artificial surfaces (including urban and associated areas),2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6970,Artificial surfaces (including urban and associated areas),2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6970,Artificial surfaces (including urban and associated areas),2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6970,Artificial surfaces (including urban and associated areas),2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6970,Artificial surfaces (including urban and associated areas),2020,2020,1000 ha,3904.44,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6970,Artificial surfaces (including urban and associated areas),2021,2021,1000 ha,3910.54,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6970,Artificial surfaces (including urban and associated areas),2022,2022,1000 ha,3921.53,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6970,Artificial surfaces (including urban and associated areas),2023,2023,1000 ha,3943.11,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6970,Artificial surfaces (including urban and associated areas),2020,2020,1000 ha,2238.06,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6970,Artificial surfaces (including urban and associated areas),2021,2021,1000 ha,2351.14,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6970,Artificial surfaces (including urban and associated areas),2022,2022,1000 ha,2566.6,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6970,Artificial surfaces (including urban and associated areas),2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6970,Artificial surfaces (including urban and associated areas),2020,2020,1000 ha,5991.04,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6970,Artificial surfaces (including urban and associated areas),2021,2021,1000 ha,6822.89,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6970,Artificial surfaces (including urban and associated areas),2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6970,Artificial surfaces (including urban and associated areas),2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6971,Herbaceous crops,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6971,Herbaceous crops,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6971,Herbaceous crops,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6971,Herbaceous crops,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6971,Herbaceous crops,2020,2020,1000 ha,198183.5,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6971,Herbaceous crops,2021,2021,1000 ha,198802.97,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6971,Herbaceous crops,2022,2022,1000 ha,200466.95,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6971,Herbaceous crops,2023,2023,1000 ha,199378.71,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6971,Herbaceous crops,2020,2020,1000 ha,173718.4,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6971,Herbaceous crops,2021,2021,1000 ha,173400.31,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6971,Herbaceous crops,2022,2022,1000 ha,172718.76,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6971,Herbaceous crops,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6971,Herbaceous crops,2020,2020,1000 ha,155204.59,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6971,Herbaceous crops,2021,2021,1000 ha,146148.71,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6971,Herbaceous crops,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6971,Herbaceous crops,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6972,Woody crops,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6972,Woody crops,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6972,Woody crops,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6972,Woody crops,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6972,Woody crops,2020,2020,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6972,Woody crops,2021,2021,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6972,Woody crops,2022,2022,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6972,Woody crops,2023,2023,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6972,Woody crops,2020,2020,1000 ha,15296.87,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6972,Woody crops,2021,2021,1000 ha,15268.86,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6972,Woody crops,2022,2022,1000 ha,15208.85,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6972,Woody crops,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6972,Woody crops,2020,2020,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6972,Woody crops,2021,2021,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6972,Woody crops,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6972,Woody crops,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6973,Multiple or layered crops,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6973,Multiple or layered crops,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6973,Multiple or layered crops,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6973,Multiple or layered crops,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6973,Multiple or layered crops,2020,2020,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6973,Multiple or layered crops,2021,2021,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6973,Multiple or layered crops,2022,2022,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6973,Multiple or layered crops,2023,2023,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6973,Multiple or layered crops,2020,2020,,,,
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6973,Multiple or layered crops,2021,2021,,,,
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6973,Multiple or layered crops,2022,2022,,,,
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6973,Multiple or layered crops,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6973,Multiple or layered crops,2020,2020,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6973,Multiple or layered crops,2021,2021,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6973,Multiple or layered crops,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6973,Multiple or layered crops,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6983,Grassland,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6983,Grassland,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6983,Grassland,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6983,Grassland,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6983,Grassland,2020,2020,1000 ha,19100.14,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6983,Grassland,2021,2021,1000 ha,17942.15,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6983,Grassland,2022,2022,1000 ha,18492.65,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6983,Grassland,2023,2023,1000 ha,19887.62,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6983,Grassland,2020,2020,1000 ha,24998.81,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6983,Grassland,2021,2021,1000 ha,24999.77,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6983,Grassland,2022,2022,1000 ha,24970.44,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6983,Grassland,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6983,Grassland,2020,2020,1000 ha,24683.77,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6983,Grassland,2021,2021,1000 ha,33613.55,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6983,Grassland,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6983,Grassland,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6974,Tree-covered areas,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6974,Tree-covered areas,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6974,Tree-covered areas,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6974,Tree-covered areas,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6974,Tree-covered areas,2020,2020,1000 ha,55930.17,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6974,Tree-covered areas,2021,2021,1000 ha,55906.38,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6974,Tree-covered areas,2022,2022,1000 ha,54314.3,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6974,Tree-covered areas,2023,2023,1000 ha,54887.08,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6974,Tree-covered areas,2020,2020,1000 ha,49734.81,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6974,Tree-covered areas,2021,2021,1000 ha,49919.64,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6974,Tree-covered areas,2022,2022,1000 ha,50436.69,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6974,Tree-covered areas,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6974,Tree-covered areas,2020,2020,1000 ha,68960.38,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6974,Tree-covered areas,2021,2021,1000 ha,78481.21,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6974,Tree-covered areas,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6974,Tree-covered areas,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6975,Mangroves,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6975,Mangroves,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6975,Mangroves,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6975,Mangroves,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6975,Mangroves,2020,2020,1000 ha,455.18,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6975,Mangroves,2021,2021,1000 ha,466.28,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6975,Mangroves,2022,2022,1000 ha,488.92,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6975,Mangroves,2023,2023,1000 ha,484.68,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6975,Mangroves,2020,2020,1000 ha,425.33,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6975,Mangroves,2021,2021,1000 ha,429.61,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6975,Mangroves,2022,2022,1000 ha,438.37,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6975,Mangroves,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6975,Mangroves,2020,2020,1000 ha,455.77,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6975,Mangroves,2021,2021,1000 ha,446.53,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6975,Mangroves,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6975,Mangroves,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6976,Shrub-covered areas,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6976,Shrub-covered areas,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6976,Shrub-covered areas,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6976,Shrub-covered areas,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6976,Shrub-covered areas,2020,2020,1000 ha,9471.67,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6976,Shrub-covered areas,2021,2021,1000 ha,9800.65,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6976,Shrub-covered areas,2022,2022,1000 ha,9227.82,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6976,Shrub-covered areas,2023,2023,1000 ha,8753.56,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6976,Shrub-covered areas,2020,2020,1000 ha,21329.55,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6976,Shrub-covered areas,2021,2021,1000 ha,21350.31,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6976,Shrub-covered areas,2022,2022,1000 ha,21353.28,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6976,Shrub-covered areas,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6976,Shrub-covered areas,2020,2020,1000 ha,14161.85,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6976,Shrub-covered areas,2021,2021,1000 ha,14472.27,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6976,Shrub-covered areas,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6976,Shrub-covered areas,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2020,2020,1000 ha,818.52,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2021,2021,1000 ha,890.18,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2022,2022,1000 ha,909.4,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2023,2023,1000 ha,1010.72,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2020,2020,1000 ha,1906.39,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2021,2021,1000 ha,1906.74,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2022,2022,1000 ha,1906.77,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2020,2020,1000 ha,776.67,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2021,2021,1000 ha,530.85,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6977,"Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6978,Sparsely natural vegetated areas,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6978,Sparsely natural vegetated areas,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6978,Sparsely natural vegetated areas,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6978,Sparsely natural vegetated areas,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6978,Sparsely natural vegetated areas,2020,2020,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6978,Sparsely natural vegetated areas,2021,2021,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6978,Sparsely natural vegetated areas,2022,2022,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6978,Sparsely natural vegetated areas,2023,2023,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6978,Sparsely natural vegetated areas,2020,2020,1000 ha,540.91,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6978,Sparsely natural vegetated areas,2021,2021,1000 ha,540.89,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6978,Sparsely natural vegetated areas,2022,2022,1000 ha,540.38,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6978,Sparsely natural vegetated areas,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6978,Sparsely natural vegetated areas,2020,2020,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6978,Sparsely natural vegetated areas,2021,2021,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6978,Sparsely natural vegetated areas,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6978,Sparsely natural vegetated areas,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6979,Terrestrial barren land,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6979,Terrestrial barren land,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6979,Terrestrial barren land,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6979,Terrestrial barren land,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6979,Terrestrial barren land,2020,2020,1000 ha,7405.28,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6979,Terrestrial barren land,2021,2021,1000 ha,7424.69,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6979,Terrestrial barren land,2022,2022,1000 ha,7434.84,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6979,Terrestrial barren land,2023,2023,1000 ha,6754.19,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6979,Terrestrial barren land,2020,2020,1000 ha,1254.86,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6979,Terrestrial barren land,2021,2021,1000 ha,1255.85,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6979,Terrestrial barren land,2022,2022,1000 ha,1256.84,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6979,Terrestrial barren land,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6979,Terrestrial barren land,2020,2020,1000 ha,20931.13,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6979,Terrestrial barren land,2021,2021,1000 ha,10621.8,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6979,Terrestrial barren land,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6979,Terrestrial barren land,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6980,Permanent snow and glaciers,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6980,Permanent snow and glaciers,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6980,Permanent snow and glaciers,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6980,Permanent snow and glaciers,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6980,Permanent snow and glaciers,2020,2020,1000 ha,389.11,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6980,Permanent snow and glaciers,2021,2021,1000 ha,421.17,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6980,Permanent snow and glaciers,2022,2022,1000 ha,394.53,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6980,Permanent snow and glaciers,2023,2023,1000 ha,384.75,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6980,Permanent snow and glaciers,2020,2020,1000 ha,739.64,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6980,Permanent snow and glaciers,2021,2021,1000 ha,739.64,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6980,Permanent snow and glaciers,2022,2022,1000 ha,739.64,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6980,Permanent snow and glaciers,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6980,Permanent snow and glaciers,2020,2020,1000 ha,797.76,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6980,Permanent snow and glaciers,2021,2021,1000 ha,948.01,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6980,Permanent snow and glaciers,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6980,Permanent snow and glaciers,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6981,Inland water bodies,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6981,Inland water bodies,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6981,Inland water bodies,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6981,Inland water bodies,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6981,Inland water bodies,2020,2020,1000 ha,2164.6,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6981,Inland water bodies,2021,2021,1000 ha,2256.85,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6981,Inland water bodies,2022,2022,1000 ha,2170.94,E,Estimated value
+LC,Land Cover,IND,India,5007,Area from MODIS,6981,Inland water bodies,2023,2023,1000 ha,2337.03,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6981,Inland water bodies,2020,2020,1000 ha,5640.28,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6981,Inland water bodies,2021,2021,1000 ha,5661.12,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6981,Inland water bodies,2022,2022,1000 ha,5687.26,E,Estimated value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6981,Inland water bodies,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6981,Inland water bodies,2020,2020,1000 ha,5859.3,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6981,Inland water bodies,2021,2021,1000 ha,5736.44,E,Estimated value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6981,Inland water bodies,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6981,Inland water bodies,2023,2023,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6982,Coastal water bodies and intertidal areas,2020,2020,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6982,Coastal water bodies and intertidal areas,2021,2021,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6982,Coastal water bodies and intertidal areas,2022,2022,,,,
+LC,Land Cover,IND,India,5006,Area from CGLS,6982,Coastal water bodies and intertidal areas,2023,2023,,,,
+LC,Land Cover,IND,India,5007,Area from MODIS,6982,Coastal water bodies and intertidal areas,2020,2020,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6982,Coastal water bodies and intertidal areas,2021,2021,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6982,Coastal water bodies and intertidal areas,2022,2022,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5007,Area from MODIS,6982,Coastal water bodies and intertidal areas,2023,2023,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6982,Coastal water bodies and intertidal areas,2020,2020,,,,
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6982,Coastal water bodies and intertidal areas,2021,2021,,,,
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6982,Coastal water bodies and intertidal areas,2022,2022,,,,
+LC,Land Cover,IND,India,5008,Area from CCI_LC,6982,Coastal water bodies and intertidal areas,2023,2023,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6982,Coastal water bodies and intertidal areas,2020,2020,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6982,Coastal water bodies and intertidal areas,2021,2021,1000 ha,,O,Missing value
+LC,Land Cover,IND,India,5013,Area from WorldCover,6982,Coastal water bodies and intertidal areas,2022,2022,,,,
+LC,Land Cover,IND,India,5013,Area from WorldCover,6982,Coastal water bodies and intertidal areas,2023,2023,,,,

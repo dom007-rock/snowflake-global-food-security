@@ -1,0 +1,297 @@
+[
+  {
+    "label":"Featured Indicators > (List)",
+    "code":"21054>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Prevalence of undernourishment (percent)",
+    "code":"21004",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of people undernourished (million)",
+    "code":"21001",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of severe food insecurity in the total population (percent)",
+    "code":"21040",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of moderate or severe food insecurity in the total population (percent)",
+    "code":"21009",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of severely food insecure people (million)",
+    "code":"21007",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of moderately or severely food insecure people (million)",
+    "code":"21008",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percentage of children under 5 years affected by wasting (percent)",
+    "code":"21026",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of children under 5 years affected by wasting (million)",
+    "code":"210260",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percentage of children under 5 years of age who are stunted (modelled estimates) (percent)",
+    "code":"21025",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of children under 5 years of age who are stunted (modeled estimates) (million)",
+    "code":"210250",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percentage of children under 5 years of age who are overweight (modelled estimates) (percent)",
+    "code":"21041",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of children under 5 years of age who are overweight (modeled estimates) (million)",
+    "code":"210410",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of obesity in the adult population (18 years and older) (percent)",
+    "code":"21042",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of obese adults (18 years and older) (million)",
+    "code":"210420",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of anemia among women of reproductive age (15-49 years) (percent)",
+    "code":"21043",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of women of reproductive age (15-49 years) affected by anemia (million)",
+    "code":"210430",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of exclusive breastfeeding among infants 0-5 months of age (percent)",
+    "code":"21044",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of low birthweight (percent)",
+    "code":"21049",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of newborns with low birthweight (million)",
+    "code":"210490",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Availability > (List)",
+    "code":"21050>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Average dietary energy supply adequacy (percent) (3-year average)",
+    "code":"21010",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Dietary energy supply used in the estimation of the prevalence of undernourishment (kcal\/cap\/day)",
+    "code":"220001",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Dietary energy supply used in the estimation of the prevalence of undernourishment (kcal\/cap\/day) (3-year average)",
+    "code":"22000",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Share of dietary energy supply derived from cereals, roots and tubers (percent) (3-year average)",
+    "code":"21012",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Average protein supply (g\/cap\/day) (3-year average)",
+    "code":"21013",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Average supply of protein of animal origin (g\/cap\/day) (3-year average)",
+    "code":"21014",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Access > (List)",
+    "code":"21051>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Rail lines density (total route in km per 100 square km of land area)",
+    "code":"21016",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Gross domestic product per capita, PPP, (constant 2021 international $)",
+    "code":"22013",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of undernourishment (percent)",
+    "code":"21004",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of people undernourished (million)",
+    "code":"21001",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of severe food insecurity in the total population (percent)",
+    "code":"21040",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of moderate or severe food insecurity in the total population (percent)",
+    "code":"21009",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of severely food insecure people (million)",
+    "code":"21007",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Number of moderately or severely food insecure people (million)",
+    "code":"21008",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Stability > (List)",
+    "code":"21053>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Cereal import dependency ratio (percent) (3-year average)",
+    "code":"21035",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percent of arable land equipped for irrigation (percent) (3-year average)",
+    "code":"21034",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Value of food imports in total merchandise exports (percent) (3-year average)",
+    "code":"21033",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Per capita food supply variability (kcal\/cap\/day)",
+    "code":"21031",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Utilization > (List)",
+    "code":"21052>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Percentage of population using safely managed drinking water services (percent)",
+    "code":"21045",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percentage of population using at least basic drinking water services (percent)",
+    "code":"21047",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percentage of population using safely managed sanitation services (percent)",
+    "code":"21046",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percentage of population using at least basic sanitation services (percent)",
+    "code":"21048",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percentage of children under 5 years affected by wasting (percent)",
+    "code":"21026",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percentage of children under 5 years of age who are stunted (modelled estimates) (percent)",
+    "code":"21025",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Percentage of children under 5 years of age who are overweight (modelled estimates) (percent)",
+    "code":"21041",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of obesity in the adult population (18 years and older) (percent)",
+    "code":"21042",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of anemia among women of reproductive age (15-49 years) (percent)",
+    "code":"21043",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of exclusive breastfeeding among infants 0-5 months of age (percent)",
+    "code":"21044",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Prevalence of low birthweight (percent)",
+    "code":"21049",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Other > (List)",
+    "code":"21055>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Minimum dietary energy requirement (kcal\/cap\/day)",
+    "code":"21056",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Average dietary energy requirement (kcal\/cap\/day)",
+    "code":"21057",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Coefficient of variation of habitual caloric consumption distribution (real number)",
+    "code":"21058",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Incidence of caloric losses at retail distribution level (percent)",
+    "code":"21059",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"-- Average fat supply (g\/cap\/day) (3-year average)",
+    "code":"21061",
+    "aggregate_type":"0"
+  }
+]

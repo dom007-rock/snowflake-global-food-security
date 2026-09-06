@@ -1,0 +1,71 @@
+country_code,country,indicator_code,indicator,year,value,unit,obs_status,decimal
+IND,India,SP.POP.TOTL,"Population, total",2023,1438069596.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2022,1425423212.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2021,1414203896.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2020,1402617695.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2019,1389030312.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2018,1374659064.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2017,1359657400.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2016,1343944296.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2015,1328024498.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2014,1312277191.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2013,1295829511.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2012,1278674502.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2011,1261224954.0,,,0
+IND,India,SP.POP.TOTL,"Population, total",2010,1243481564.0,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2023,3500906030644.76,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2022,3249938492013.47,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2021,3167270623260.47,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2020,2674851578587.27,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2019,2835606256558.19,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2018,2702929641648.74,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2017,2651474262755.45,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2016,2294796885663.16,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2015,2103588360044.94,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2014,2039126479154.52,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2013,1856721507621.58,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2012,1827637590410.41,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2011,1823051829894.55,,,0
+IND,India,NY.GDP.MKTP.CD,GDP (current US$),2010,1675615519484.96,,,0
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2023,2434.44826340989,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2022,2279.98145719369,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2021,2239.61384367482,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2020,1907.04251637669,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2019,2041.42863698585,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2018,1966.25455171679,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2017,1950.10468280866,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2016,1707.50892912243,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2015,1583.99815907985,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2014,1553.88396075118,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2013,1432.84397512195,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2012,1429.32199520032,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2011,1445.46127486037,,,1
+IND,India,NY.GDP.PCAP.CD,GDP per capita (current US$),2010,1347.51939071367,,,1
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2023,64.9323081575814,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2022,65.2444326005794,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2021,65.5574482818696,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2020,65.8713273911667,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2019,66.1860421181853,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2018,66.5015646526402,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2017,66.8178671842461,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2016,67.1349219027177,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2015,67.4527009977701,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2014,67.7711766591179,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2013,68.0903210764763,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2012,68.4101064395601,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2011,68.7253497146691,,,0
+IND,India,SP.RUR.TOTL.ZS,Rural population (% of total population),2010,69.0957809189906,,,0
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2023,17.6565389328245,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2022,18.2106659929942,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2021,17.3725615260314,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2020,18.6685376603727,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2019,16.7555683032837,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2018,16.031630686449,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2017,16.5583314049368,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2016,16.3638005616331,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2015,16.1745081068401,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2014,16.7919345145039,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2013,17.1484235433697,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2012,16.8453770661356,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2011,17.191973558015,,,1
+IND,India,NV.AGR.TOTL.ZS,"Agriculture, forestry, and fishing, value added (% of GDP)",2010,17.0265090136912,,,1
