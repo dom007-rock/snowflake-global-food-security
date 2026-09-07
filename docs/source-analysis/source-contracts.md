@@ -28,6 +28,10 @@ FAOSTAT request codes can differ from returned observation codes. Both must rema
 
 Neither FAOSTAT nor World Bank history is treated as immutable. Incremental design must support revisions.
 
+### Historical refreshes are snapshot-based
+
+Scheduled refreshes may re-extract previously loaded years. Each source run is retained as an immutable snapshot, while CLEAN identifies the currently accepted observation state. Cross-run repetition is therefore valid source history rather than a duplicate error.
+
 ## 3. FAOSTAT Contract Baseline
 
 ### Standard annual domains
@@ -146,10 +150,12 @@ The derived status must always coexist with the original source flag/status.
 ## 6. Geography Rules
 
 - Integrated consumption models target country-level analysis.
-- ISO3 is the preferred integration key where available.
-- FAOSTAT regions and special groups must not be mixed with countries in the same country-level fact model.
-- World Bank aggregate entities must be excluded from country-level facts when broader source queries are introduced.
-
+- `country_iso3` is the canonical cross-source geographic key.
+- FAOSTAT regions and special groups must not be mixed with countries in country-level facts.
+- World Bank regional, income-group, and other aggregate entities must be excluded from country-level facts.
+- Country matching uses exact ISO3 first, followed only by governed manual overrides.
+- Automatic fuzzy matching on country names is prohibited.
+- The physical country crosswalk is implemented during Phase 9 and must retain source-specific identifiers and match status.
 ## 7. Time Rules
 
 - Integrated historical scope is 2010-2023.

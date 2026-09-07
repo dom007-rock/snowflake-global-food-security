@@ -45,7 +45,10 @@ Validated profile behavior:
 - observation-level `unit` may be blank;
 - `obs_status` may be blank;
 - `decimal` is display/scaling precision metadata, not Boolean;
-- indicator metadata should be versioned separately from observations.
+- indicator metadata should be versioned separately from observations;
+- ISO3 is the canonical FAOSTAT/WDI country integration key;
+- country-name fuzzy matching is prohibited;
+- a governed crosswalk will handle legitimate exceptions in Phase 9.
 
 ## Decisions Carried Forward
 
@@ -53,11 +56,12 @@ Validated profile behavior:
 2. RAW layers preserve source payload semantics.
 3. Null values are never silently replaced with zero.
 4. Source provenance flags remain available downstream.
-5. Historical revisions must be supported.
+5. Historical revisions must be supported through immutable extraction snapshots and controlled historical refreshes.
 6. FAOSTAT request codes and returned observation codes are stored as distinct concepts.
 7. FS temporal semantics remain explicit.
 8. GT projections are excluded from v1 historical facts.
 9. World Bank WDI is enrichment, not a second primary domain platform.
+10. Cross-source country integration uses exact ISO3 matching first, with manual overrides only for governed exceptions.
 
 ## Phase 3 Handoff
 

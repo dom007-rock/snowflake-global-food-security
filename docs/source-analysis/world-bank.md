@@ -171,12 +171,43 @@ CLEAN processing may:
 - preserve the original numeric value while supporting presentation-scale fields downstream;
 - align country-year observations with FAOSTAT country models.
 
-## 12. Incremental and Revision Considerations
+## 12. FAOSTAT Country Integration Strategy
+
+Country-level integration between FAOSTAT and World Development Indicators uses ISO 3166-1 alpha-3 identifiers as the canonical geographic key. Country names are retained for presentation and validation but are not used as the primary join key.
+
+The matching hierarchy is:
+
+1. Exact ISO3 match.
+2. Explicit manual crosswalk for legitimate unmatched country entities.
+3. Unresolved entities remain unmatched and are surfaced for review.
+
+Automatic fuzzy matching on country names is not permitted.
+
+Regional aggregates, special groups, income groups, and other non-country entities are excluded from the country-level integration path. The physical crosswalk is implemented during the World Bank Enrichment phase and retains source-specific codes and names for traceability.
+
+Conceptual crosswalk fields include:
+
+```text
+canonical_iso3
+faostat_area_code
+faostat_area_name
+faostat_iso3
+world_bank_code
+world_bank_country_name
+world_bank_iso3
+match_method
+match_status
+notes
+```
+
+Expected match methods and statuses include `ISO3_EXACT`, `MANUAL_OVERRIDE`, `MATCHED`, `UNMATCHED`, `EXCLUDED_AGGREGATE`, and `REVIEW_REQUIRED`.
+
+## 13. Incremental and Revision Considerations
 
 World Bank indicators may be revised historically. The ingestion strategy should therefore support controlled historical refreshes rather than assuming previously loaded years are immutable.
 
 The same general revision-aware design principle used for FAOSTAT applies here.
 
-## 13. Phase 2 Outcome
+## 14. Phase 2 Outcome
 
 WDI API behavior, Source ID 2, the initial v1 indicator set, annual grain, 2010-2023 coverage, numeric behavior, blank observation metadata, decimal semantics, and indicator metadata have been profiled sufficiently to proceed to formal Phase 3 contracts.

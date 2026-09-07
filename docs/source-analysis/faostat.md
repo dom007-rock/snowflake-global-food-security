@@ -268,16 +268,28 @@ CLEAN processing may:
 
 CLEAN must not overwrite the original source semantics.
 
-## 9. Revision Behavior and Incremental Loading
+## 9. Revision Behavior and Historical Refresh
 
-FAOSTAT historical values may be revised. Incremental ingestion must not rely only on:
+FAOSTAT is treated as a revision-capable statistical source rather than an append-only feed. Previously published observations may change as source statistics, estimates, classifications, or methodologies are revised.
+
+The ingestion design must therefore not rely exclusively on:
 
 ```text
 year > max_loaded_year
 ```
 
-The production design must support periodic re-extraction of recent and historical slices, compare source snapshots, and identify changed observations.
+For the v1 analytical scope, scheduled refreshes re-extract the configured 2010-2023 range for the governed domain and indicator allowlist. Each extraction is retained as an immutable source snapshot identified by ingestion run metadata.
 
+Revision detection compares source business keys together with observation attributes such as value, unit, flag, flag description, and note. A comparison between snapshots may identify:
+
+- new observations;
+- revised values or provenance metadata;
+- observations no longer returned by the source;
+- unchanged observations.
+
+RAW retains historical snapshots for auditability and replay. CLEAN represents the currently accepted source state while preserving lineage to the originating ingestion run.
+
+The exact production refresh schedule is defined in Phase 3.
 ## 10. Phase 2 Outcome
 
 Source discovery and structural profiling are complete for the six selected domains.
