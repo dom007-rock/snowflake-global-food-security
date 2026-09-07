@@ -1,0 +1,167 @@
+/* ============================================================
+   Global Food Security Intelligence Platform
+   Phase 4B - RBAC Foundation
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   1. COMPLETE ENVIRONMENT SCHEMA SKELETON
+   ------------------------------------------------------------ */
+
+USE ROLE SYSADMIN;
+
+CREATE SCHEMA IF NOT EXISTS GFS_TEST.RAW;
+CREATE SCHEMA IF NOT EXISTS GFS_TEST.CLEAN;
+CREATE SCHEMA IF NOT EXISTS GFS_TEST.CONSUMPTION;
+CREATE SCHEMA IF NOT EXISTS GFS_TEST.PUBLISH;
+CREATE SCHEMA IF NOT EXISTS GFS_TEST.CONTROL;
+
+CREATE SCHEMA IF NOT EXISTS GFS_PROD.RAW;
+CREATE SCHEMA IF NOT EXISTS GFS_PROD.CLEAN;
+CREATE SCHEMA IF NOT EXISTS GFS_PROD.CONSUMPTION;
+CREATE SCHEMA IF NOT EXISTS GFS_PROD.PUBLISH;
+CREATE SCHEMA IF NOT EXISTS GFS_PROD.CONTROL;
+
+
+/* ------------------------------------------------------------
+   2. CUSTOM ROLES
+   ------------------------------------------------------------ */
+
+USE ROLE USERADMIN;
+
+CREATE ROLE IF NOT EXISTS GFS_PLATFORM_ADMIN
+    COMMENT = 'Administrative role for the GFS platform';
+
+CREATE ROLE IF NOT EXISTS GFS_DEVELOPER
+    COMMENT = 'Developer role for GFS development workloads';
+
+CREATE ROLE IF NOT EXISTS GFS_INGESTION_SVC
+    COMMENT = 'Service role for source ingestion workloads';
+
+CREATE ROLE IF NOT EXISTS GFS_TRANSFORM_SVC
+    COMMENT = 'Service role for transformation workloads';
+
+CREATE ROLE IF NOT EXISTS GFS_ANALYST
+    COMMENT = 'Read-only analytical consumer role';
+
+
+/* ------------------------------------------------------------
+   3. ROLE HIERARCHY
+   ------------------------------------------------------------ */
+
+USE ROLE SECURITYADMIN;
+
+GRANT ROLE GFS_DEVELOPER
+    TO ROLE GFS_PLATFORM_ADMIN;
+
+GRANT ROLE GFS_INGESTION_SVC
+    TO ROLE GFS_PLATFORM_ADMIN;
+
+GRANT ROLE GFS_TRANSFORM_SVC
+    TO ROLE GFS_PLATFORM_ADMIN;
+
+GRANT ROLE GFS_ANALYST
+    TO ROLE GFS_PLATFORM_ADMIN;
+
+GRANT ROLE GFS_PLATFORM_ADMIN
+    TO ROLE SYSADMIN;
+
+
+/* ------------------------------------------------------------
+   4. DEVELOPER ACCESS
+   Development only
+   ------------------------------------------------------------ */
+
+GRANT USAGE ON DATABASE GFS_DEV
+    TO ROLE GFS_DEVELOPER;
+
+GRANT USAGE ON ALL SCHEMAS IN DATABASE GFS_DEV
+    TO ROLE GFS_DEVELOPER;
+
+GRANT USAGE ON WAREHOUSE GFS_INGEST_WH
+    TO ROLE GFS_DEVELOPER;
+
+GRANT USAGE ON WAREHOUSE GFS_TRANSFORM_WH
+    TO ROLE GFS_DEVELOPER;
+
+GRANT USAGE ON WAREHOUSE GFS_ANALYTICS_WH
+    TO ROLE GFS_DEVELOPER;
+
+GRANT CREATE TABLE, CREATE VIEW
+    ON SCHEMA GFS_DEV.CLEAN
+    TO ROLE GFS_DEVELOPER;
+
+GRANT CREATE TABLE, CREATE VIEW
+    ON SCHEMA GFS_DEV.CONSUMPTION
+    TO ROLE GFS_DEVELOPER;
+
+GRANT CREATE TABLE, CREATE VIEW
+    ON SCHEMA GFS_DEV.PUBLISH
+    TO ROLE GFS_DEVELOPER;
+
+GRANT CREATE TABLE, CREATE VIEW
+    ON SCHEMA GFS_DEV.CONTROL
+    TO ROLE GFS_DEVELOPER;
+
+
+/* ------------------------------------------------------------
+   5. INGESTION SERVICE ACCESS
+   ------------------------------------------------------------ */
+
+GRANT USAGE ON DATABASE GFS_DEV
+    TO ROLE GFS_INGESTION_SVC;
+
+GRANT USAGE ON SCHEMA GFS_DEV.RAW
+    TO ROLE GFS_INGESTION_SVC;
+
+GRANT USAGE ON SCHEMA GFS_DEV.CONTROL
+    TO ROLE GFS_INGESTION_SVC;
+
+GRANT USAGE ON WAREHOUSE GFS_INGEST_WH
+    TO ROLE GFS_INGESTION_SVC;
+
+
+/* ------------------------------------------------------------
+   6. TRANSFORMATION SERVICE ACCESS
+   ------------------------------------------------------------ */
+
+GRANT USAGE ON DATABASE GFS_DEV
+    TO ROLE GFS_TRANSFORM_SVC;
+
+GRANT USAGE ON SCHEMA GFS_DEV.RAW
+    TO ROLE GFS_TRANSFORM_SVC;
+
+GRANT USAGE ON SCHEMA GFS_DEV.CLEAN
+    TO ROLE GFS_TRANSFORM_SVC;
+
+GRANT USAGE ON SCHEMA GFS_DEV.CONSUMPTION
+    TO ROLE GFS_TRANSFORM_SVC;
+
+GRANT USAGE ON SCHEMA GFS_DEV.CONTROL
+    TO ROLE GFS_TRANSFORM_SVC;
+
+GRANT USAGE ON WAREHOUSE GFS_TRANSFORM_WH
+    TO ROLE GFS_TRANSFORM_SVC;
+
+
+/* ------------------------------------------------------------
+   7. ANALYST ACCESS
+   PUBLISH only
+   ------------------------------------------------------------ */
+
+GRANT USAGE ON DATABASE GFS_DEV
+    TO ROLE GFS_ANALYST;
+
+GRANT USAGE ON SCHEMA GFS_DEV.PUBLISH
+    TO ROLE GFS_ANALYST;
+
+GRANT USAGE ON WAREHOUSE GFS_ANALYTICS_WH
+    TO ROLE GFS_ANALYST;
+
+GRANT SELECT ON FUTURE TABLES
+    IN SCHEMA GFS_DEV.PUBLISH
+    TO ROLE GFS_ANALYST;
+
+GRANT SELECT ON FUTURE VIEWS
+    IN SCHEMA GFS_DEV.PUBLISH
+    TO ROLE GFS_ANALYST;
