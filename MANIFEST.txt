@@ -1,0 +1,17 @@
+OVERLAY_INSTRUCTIONS.md
+MANIFEST.txt
+src/orchestration/snowflake_handoff.py
+scripts/run_faostat_refresh.py
+sql/orchestration/006_sp_merge_qcl_clean.sql
+sql/orchestration/007_task_qcl_to_fact_graph.sql
+sql/orchestration/012_phase12_validation.sql
+sql/dq/011_phase12_qcl_dq_fix.sql
+sql/security/013_phase13_rbac.sql
+sql/monitoring/014_phase14_monitoring.sql
+docs/PROJECT_STATUS.md
+docs/PHASE_13_SECURITY.md
+docs/PHASE_14_MONITORING.md
+docs/adr/ADR-002-snowflake-orchestration.md
+docs/adr/ADR-003-batch-id-restartability.md
+docs/runbooks/RUNBOOK-001-aws-opt-in-region-sts.md
+docs/runbooks/RUNBOOK-002-qcl-reconciliation.md

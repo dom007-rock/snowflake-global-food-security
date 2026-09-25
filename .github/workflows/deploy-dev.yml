@@ -1,0 +1,188 @@
+name: Deploy DEV
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: "Type DEPLOY_DEV to confirm deployment"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gfs-dev-deployment
+  cancel-in-progress: false
+
+
+jobs:
+
+  deploy-dev:
+    name: Deploy Snowflake DEV
+    runs-on: ubuntu-latest
+
+    environment:
+      name: dev
+
+    steps:
+
+      # =======================================================================
+      # SAFETY GUARD
+      # =======================================================================
+
+      - name: Validate deployment confirmation
+        shell: bash
+        run: |
+          if [ "${{ inputs.confirmation }}" != "DEPLOY_DEV" ]; then
+            echo "Deployment confirmation failed."
+            echo "Enter exactly: DEPLOY_DEV"
+            exit 1
+          fi
+
+      # =======================================================================
+      # CHECKOUT
+      # =======================================================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      # =======================================================================
+      # SNOWFLAKE CLI
+      # =======================================================================
+
+      - name: Install Snowflake CLI
+        uses: snowflakedb/snowflake-actions@v3
+        with:
+          cli-version: "3.16.0"
+
+      # =======================================================================
+      # CONNECTION TEST
+      #
+      # Authentication:
+      #   Key-pair authentication using GitHub environment secrets.
+      #
+      # No password is stored in the repository.
+      # =======================================================================
+
+      - name: Test Snowflake connection
+        env:
+          SNOWFLAKE_AUTHENTICATOR: SNOWFLAKE_JWT
+          SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_PRIVATE_KEY_RAW: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_RAW }}
+          PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_PASSPHRASE }}
+
+        run: |
+          snow connection test --temporary-connection
+
+      # =======================================================================
+      # DEPLOY PUBLISH LAYER
+      #
+      # Files are executed explicitly and in dependency order.
+      #
+      # We intentionally DO NOT execute every SQL file in the repository.
+      # Historical/bootstrap/admin SQL should never be blindly replayed by CI.
+      # =======================================================================
+
+      - name: Deploy food security views
+        env:
+          SNOWFLAKE_AUTHENTICATOR: SNOWFLAKE_JWT
+          SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_PRIVATE_KEY_RAW: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_RAW }}
+          PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_PASSPHRASE }}
+
+        run: |
+          snow sql \
+            --temporary-connection \
+            --role GFS_PLATFORM_ADMIN \
+            --warehouse GFS_ANALYTICS_WH \
+            --database GFS_DEV \
+            -f sql/publish/001_food_security_views.sql
+
+      - name: Deploy World Bank views
+        env:
+          SNOWFLAKE_AUTHENTICATOR: SNOWFLAKE_JWT
+          SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_PRIVATE_KEY_RAW: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_RAW }}
+          PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_PASSPHRASE }}
+
+        run: |
+          snow sql \
+            --temporary-connection \
+            --role GFS_PLATFORM_ADMIN \
+            --warehouse GFS_ANALYTICS_WH \
+            --database GFS_DEV \
+            -f sql/publish/002_world_bank_views.sql
+
+      - name: Deploy agriculture views
+        env:
+          SNOWFLAKE_AUTHENTICATOR: SNOWFLAKE_JWT
+          SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_PRIVATE_KEY_RAW: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_RAW }}
+          PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_PASSPHRASE }}
+
+        run: |
+          snow sql \
+            --temporary-connection \
+            --role GFS_PLATFORM_ADMIN \
+            --warehouse GFS_ANALYTICS_WH \
+            --database GFS_DEV \
+            -f sql/publish/003_agriculture_views.sql
+
+      - name: Deploy integrated KPI views
+        env:
+          SNOWFLAKE_AUTHENTICATOR: SNOWFLAKE_JWT
+          SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_PRIVATE_KEY_RAW: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_RAW }}
+          PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_PASSPHRASE }}
+
+        run: |
+          snow sql \
+            --temporary-connection \
+            --role GFS_PLATFORM_ADMIN \
+            --warehouse GFS_ANALYTICS_WH \
+            --database GFS_DEV \
+            -f sql/publish/004_integrated_kpi_views.sql
+
+      # =======================================================================
+      # POST-DEPLOY VALIDATION
+      #
+      # If validation SQL fails, the workflow fails.
+      # =======================================================================
+
+      - name: Run Phase 15 validation
+        env:
+          SNOWFLAKE_AUTHENTICATOR: SNOWFLAKE_JWT
+          SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_PRIVATE_KEY_RAW: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_RAW }}
+          PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_PRIVATE_KEY_PASSPHRASE }}
+
+        run: |
+          snow sql \
+            --temporary-connection \
+            --role GFS_PLATFORM_ADMIN \
+            --warehouse GFS_ANALYTICS_WH \
+            --database GFS_DEV \
+            -f sql/publish/005_validation.sql
+
+      # =======================================================================
+      # COMPLETION
+      # =======================================================================
+
+      - name: Deployment summary
+        run: |
+          echo "========================================"
+          echo "GFS DEV deployment completed"
+          echo "========================================"
+          echo "Environment : DEV"
+          echo "Database    : GFS_DEV"
+          echo "Schema      : PUBLISH"
+          echo "Validation  : completed"

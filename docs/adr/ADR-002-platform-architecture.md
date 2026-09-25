@@ -2,7 +2,7 @@
 
 ## Status
 
-Superseded by ADR-003.
+Accepted for Architecture v1.
 
 ## Context
 
@@ -13,8 +13,8 @@ The platform integrates revision-capable FAOSTAT and World Bank WDI APIs, requir
 The platform uses:
 
 1. Python for API extraction and source-specific request handling.
-2. Amazon S3 as the persistent landing and replay boundary.
-3. Initial design used immutable run-specific source files and a Snowflake external stage. This storage-access decision was superseded by ADR-003 after Delta Lake was selected as the first persistent landing representation.
+2. Amazon S3 as the immutable landing and replay boundary.
+3. Snowflake Storage Integration and an external stage for secure S3 access.
 4. Snowflake layer separation using RAW, CLEAN, CONSUMPTION, PUBLISH, and CONTROL schemas.
 5. Immutable run-specific source snapshots for historical revision handling.
 6. ISO3 as the canonical country integration key, with governed manual crosswalk exceptions.

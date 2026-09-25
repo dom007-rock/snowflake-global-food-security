@@ -1,51 +1,64 @@
-# ADR-003: Delta Lake Landing and Snowflake Delta Direct
+# ADR-003: Delta Lake Storage and Snowflake Delta Direct
 
-## Status
-
-Accepted.
+- **Status:** Accepted
+- **Scope:** FAOSTAT and future source landing on AWS S3
 
 ## Context
 
-The original Architecture v1 assumed immutable source-response files in S3 followed by a Snowflake external stage and RAW load. During Phase 3 review, the project selected Delta Lake as the first persistent landing representation to provide transactional writes, Parquet storage, schema metadata, table version history, and stronger interoperability.
+The platform requires:
 
-The source systems remain revision-capable and the project still requires source fidelity, replayability, idempotent retries, and historical lineage.
+- source-preserving historical storage;
+- revision-aware ingestion;
+- transactional writes to object storage;
+- efficient Snowflake access without duplicating the full RAW dataset into native Snowflake storage;
+- support for an initial historical bootstrap and later incremental refreshes.
+
+The initial design considered raw JSON/CSV files plus Snowflake stages and `COPY INTO`. The project later selected Delta Lake as the landing table format.
 
 ## Decision
 
-1. Python extracts FAOSTAT and World Bank API data and writes directly to Delta Lake tables on Amazon S3.
-2. Parquet is the physical data-file format and Delta `_delta_log` metadata defines the table state.
-3. One Delta table root is used per logical source dataset.
-4. Annual datasets are partitioned by four-digit `year`; FS uses `reference_year`; metadata tables remain unpartitioned unless profiling later justifies otherwise.
-5. Run and batch IDs are stored as columns rather than creating a separate Delta table root per ingestion execution.
-6. Python performs source-preserving serialization plus technical lineage only. Business transformations begin in CLEAN.
-7. Snowflake accesses Delta tables through an External Volume and a catalog integration configured for object storage with Delta table format, then exposes them through Delta Direct in the RAW schema.
-8. RAW Delta Direct tables are read-only in Snowflake. CLEAN and downstream layers are Snowflake-managed.
-9. The project uses a conservative Delta feature set compatible with Snowflake Delta Direct.
-10. Historical source snapshots are preserved through run/batch lineage; CLEAN resolves the accepted current source state.
+Use **Delta Lake on Amazon S3** as the physical landing layer and expose these tables to Snowflake through **Delta Direct**.
 
-## Rationale
+Snowflake configuration uses:
 
-This approach removes an unnecessary intermediate serialization layer, gives the S3 landing zone transactional table semantics, retains efficient columnar Parquet storage, and keeps Snowflake focused on standardization and analytics rather than raw JSON parsing.
+- an external volume;
+- a catalog integration with `CATALOG_SOURCE = OBJECT_STORE` and `TABLE_FORMAT = DELTA`;
+- `CREATE ICEBERG TABLE ... BASE_LOCATION = ... AUTO_REFRESH = TRUE` for RAW tables.
+
+The Snowflake RAW tables are read-only representations of the externally managed Delta tables.
+
+## Historical bootstrap decision
+
+Use official normalized FAOSTAT bulk CSVs for the initial 2010–2023 bootstrap.
+
+Reason: a single QCL year required 203 API pages for 202,520 observations and several minutes even with concurrent HTTP reads. Bulk bootstrap loaded all six project domains, 7,148,113 rows, in roughly six minutes.
+
+The API ingestion code remains the refresh mechanism and retains retry, timeout, pagination, revision, hash, and idempotency logic.
 
 ## Consequences
 
 ### Positive
 
-- transactional ingestion commits;
-- efficient compressed columnar storage;
-- explicit table schema and version history;
-- stronger retry/idempotency design;
-- direct Snowflake interoperability through Delta Direct;
-- simpler replay from S3.
+- One durable S3 source of truth.
+- Delta transaction history and recovery capabilities.
+- Snowflake RAW remains read-only and cannot accidentally duplicate data through `INSERT`/`COPY` operations.
+- Historical bootstrap is fast.
+- API refresh code remains available for revision-aware recurring ingestion.
+- Snowflake can automatically discover Delta changes through Delta Direct refresh.
 
 ### Trade-offs
 
-- the literal HTTP wire payload is not retained as the v1 system of record;
-- ingestion must enforce source-fidelity rules carefully;
-- Delta compatibility with Snowflake becomes an explicit operational constraint;
-- RAW Delta Direct tables are read-only in Snowflake;
-- partitioned Delta Direct RAW tables cannot be the basis for a Streams-dependent orchestration design.
+- Delta Direct is represented in Snowflake through Iceberg-table interfaces, which can be conceptually confusing.
+- Externally managed RAW limits write operations from Snowflake.
+- Initial bootstrap can create many relatively small Parquet files; compaction may be required later.
+- Cross-region AWS/Snowflake setup requires correct STS configuration in the Snowflake deployment region.
 
-## Supersedes
+## Superseded decision: DynamoDB locking
 
-This ADR supersedes the storage-access portions of ADR-002 that specified immutable run-specific source files plus Snowflake external-stage loading. The broader layered architecture in ADR-002 remains valid.
+An earlier implementation configured delta-rs with a DynamoDB log store. Current delta-rs no longer supports this integration and uses S3 conditional writes by default. DynamoDB locking is therefore retired from the architecture.
+
+## References
+
+- Snowflake: Delta Direct / create Iceberg table from Delta files: https://docs.snowflake.com/en/user-guide/tables-iceberg-create
+- Snowflake: object-storage catalog integration: https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration-object-storage
+- delta-rs S3 behavior: https://github.com/delta-io/delta-rs/blob/main/python/docs/source/usage.rst

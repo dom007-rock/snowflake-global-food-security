@@ -1,0 +1,14 @@
+{
+  "start_year": 2010,
+  "end_year": 2023,
+  "yearly_domains": [
+    "QCL",
+    "LC",
+    "ESB",
+    "FBS",
+    "GT"
+  ],
+  "special_domains": [
+    "FS"
+  ]
+}

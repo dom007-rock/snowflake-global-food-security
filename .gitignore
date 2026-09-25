@@ -55,8 +55,14 @@ credentials
 tmp/
 temp/
 
-# Local raw data
+# Local Streamlit / Snowflake credentials
+.streamlit/secrets.toml
+
+# Raw FAOSTAT data
 Data Zips/
 
-# Local Streamlit credentials
+# Local credentials
+Account Details.txt
 .streamlit/secrets.toml
+*.p8
+*.pem

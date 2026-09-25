@@ -1,0 +1,19 @@
+USE ROLE GFS_PLATFORM_ADMIN;
+USE DATABASE GFS_DEV;
+USE SCHEMA RAW;
+
+
+CREATE ICEBERG TABLE IF NOT EXISTS WDI_OBSERVATIONS
+    CATALOG = 'GFS_DELTA_CATALOG'
+    EXTERNAL_VOLUME = 'GFS_DEV_DELTA_EXT_VOL'
+    BASE_LOCATION = 'world_bank/wdi_observations/'
+    AUTO_REFRESH = TRUE
+    COMMENT = 'Read-only Delta Direct RAW table for World Bank WDI observations';
+
+
+CREATE ICEBERG TABLE IF NOT EXISTS WDI_INDICATOR_METADATA
+    CATALOG = 'GFS_DELTA_CATALOG'
+    EXTERNAL_VOLUME = 'GFS_DEV_DELTA_EXT_VOL'
+    BASE_LOCATION = 'world_bank/wdi_indicator_metadata/'
+    AUTO_REFRESH = TRUE
+    COMMENT = 'Read-only Delta Direct RAW table for World Bank WDI indicator metadata';

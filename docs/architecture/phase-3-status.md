@@ -1,10 +1,8 @@
 # Phase 3 Status: Architecture & Data Contracts
 
-## Status
+## Current Status
 
-**COMPLETE**
-
-Architecture v1 and the required data contracts are frozen for implementation. Any implementation-level deviation in Phases 4-7 must be recorded through an ADR or explicit documentation update rather than changing the design silently.
+Architecture v1 has been started and the core design contracts are defined.
 
 | PDF Requirement | Status | Document |
 |---|---|---|
@@ -17,28 +15,15 @@ Architecture v1 and the required data contracts are frozen for implementation. A
 | PUBLISH responsibilities | Complete | architecture-overview.md |
 | Ingestion metadata | Complete | data-contracts.md |
 | Naming conventions | Complete | data-contracts.md |
-| Schema conventions | Complete | architecture-overview.md / data-contracts.md |
+| Schema conventions | Complete | architecture-overview.md |
 | Data types | Complete | data-contracts.md |
 | Data contracts | Complete | data-contracts.md |
-| Expected refresh frequency | Complete | data-contracts.md |
+| Expected refresh frequency | Complete | architecture-overview.md / data-contracts.md |
 | Retry behavior | Complete | data-contracts.md |
 | Duplicate handling | Complete | data-contracts.md |
 | Schema evolution | Complete | data-contracts.md |
-| Architecture ADR | Complete | ADR-003-delta-lake-storage.md |
+| Architecture ADR | Complete | ADR-002-platform-architecture.md |
 
-## Architecture v1 Summary
+## Remaining Validation Before Phase 3 Closure
 
-```text
-FAOSTAT + World Bank
-        -> Python ingestion
-        -> Delta Lake on Amazon S3
-        -> Snowflake Delta Direct RAW
-        -> CLEAN
-        -> CONSUMPTION
-        -> PUBLISH
-        -> Streamlit
-```
-
-## Next Phase
-
-Phase 4: Snowflake Platform Foundation.
+Architecture v1 should be reviewed once against the first concrete Snowflake and S3 objects in Phases 4 and 5. Any implementation-level deviation must be recorded rather than silently changing the contracts.

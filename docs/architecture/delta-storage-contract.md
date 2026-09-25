@@ -1,83 +1,70 @@
-# Delta Lake Storage Contract
+# Delta Storage Contract
 
-## 1. Decision
+## Table roots
 
-The first persistent landing representation is Delta Lake on Amazon S3. Python converts source API records directly into Delta tables. Parquet is the physical data-file format and `_delta_log` is the transaction-log directory.
-
-No intermediate JSON landing tier is required in v1.
-
-## 2. Source Fidelity Boundary
-
-The ingestion process may:
-
-- deserialize API responses;
-- preserve source fields and nulls;
-- serialize compatible values to Delta/Parquet;
-- add technical lineage fields;
-- add a storage partition field where needed.
-
-The ingestion process must not:
-
-- rename source concepts for business convenience;
-- round or aggregate values;
-- replace nulls with zero;
-- standardize units;
-- collapse FAOSTAT request and returned codes;
-- remove estimated, imputed, external, missing, or suppressed rows;
-- fuzzy-match countries;
-- deduplicate observations across source snapshots.
-
-## 3. Table Roots and Partitions
-
-| Dataset | Delta root | Partition |
-|---|---|---|
-| FAOSTAT QCL | `raw/faostat/qcl/` | `year` |
-| FAOSTAT LC | `raw/faostat/lc/` | `year` |
-| FAOSTAT ESB | `raw/faostat/esb/` | `year` |
-| FAOSTAT FBS | `raw/faostat/fbs/` | `year` |
-| FAOSTAT GT | `raw/faostat/gt/` | `year` |
-| FAOSTAT FS | `raw/faostat/fs/` | `reference_year` |
-| WDI observations | `raw/world_bank/wdi_observations/` | `year` |
-| WDI indicator metadata | `raw/world_bank/wdi_indicator_metadata/` | none |
-
-Partitioning is intentionally low-cardinality. `ingestion_run_id` and `ingestion_batch_id` are columns, not partition directories.
-
-## 4. Delta Write Semantics
-
-Annual observation ingestion writes one source/domain/year batch at a time. Each batch is appended atomically to the target Delta table.
-
-The write order is:
+Each logical source dataset owns one Delta table root.
 
 ```text
-extract -> validate contract -> build batch -> idempotency check -> Delta append -> capture Delta version -> mark batch successful
+delta/
+  faostat/
+    qcl/
+    lc/
+    esb/
+    fbs/
+    gt/
+    fs/
+  world_bank/
+    wdi_observations/
+    wdi_indicator_metadata/
+    wdi_entity_metadata/
+  reference/
+    un_m49/
 ```
 
-A failed or interrupted batch is retried with the same batch ID. If the Delta append already committed, retry logic detects the committed batch and avoids a second append.
+A Delta table is **Parquet data files plus `_delta_log` transaction metadata**.
 
-## 5. Snowflake Consumption
+## Landing-layer contract
 
-Snowflake accesses the Delta table using Delta Direct:
+Common technical metadata includes, where applicable:
 
-```text
-Amazon S3 Delta table
-    -> External Volume
-    -> Catalog Integration (OBJECT_STORE, DELTA)
-    -> Snowflake Iceberg table over Delta files
-    -> RAW schema
-```
+| Column | Purpose |
+|---|---|
+| `source_payload` | Canonical JSON representation of source record |
+| `_source_system` | Source system identifier |
+| `_source_domain` | Logical source dataset/domain |
+| `_ingestion_run_id` | Unique execution identifier |
+| `_ingestion_batch_id` | Logical batch/snapshot identifier |
+| `_extracted_at_utc` | Extraction timestamp |
+| `_source_row_hash` | SHA-256 source-row fingerprint |
+| `_request_parameters` | Request/bootstrap context where relevant |
 
-RAW Delta Direct tables are treated as read-only source interfaces. Transformations write to Snowflake-managed CLEAN and downstream objects.
+FAOSTAT additionally retains request year/page metadata for the bulk/API ingestion contract.
 
-## 6. Compatibility Guardrails
+## Source preservation
 
-The project avoids Delta features not supported by the selected Snowflake path. In v1:
+The landing layer performs no analytical typing or business interpretation. Source field names and values remain inside `source_payload`; technical metadata is additive.
 
-- no deletion vectors;
-- no row tracking;
-- no Delta CDC/change-data files;
-- no unsupported protocol evolution;
-- decimal precision <= 38;
-- no unsupported field-ID or interval representations;
-- no dependency on Streams over partitioned Delta Direct RAW tables.
+## Idempotency and revision handling
 
-Compatibility is revalidated before implementation in Phases 5-7.
+- Exact repeat snapshots are identifiable through row/snapshot hashes.
+- Historical source revisions create changed hashes rather than being silently ignored.
+- Initial bulk bootstrap may overwrite the active DEV Delta baseline.
+- Recurring refresh logic must not assume history is append-only.
+
+## S3 write coordination
+
+Current `deltalake` / delta-rs uses S3 conditional write semantics. The earlier DynamoDB log-store design is retired.
+
+## FAOSTAT bootstrap baseline
+
+| Domain | Rows | Active files |
+|---|---:|---:|
+| QCL | 1,005,808 | 308 |
+| LC | 119,230 | 28 |
+| ESB | 194,244 | 70 |
+| FBS | 4,820,497 | 350 |
+| GT | 820,429 | 182 |
+| FS | 187,905 | 52 |
+| **Total** | **7,148,113** | **990** |
+
+Compaction is deferred until query behavior shows a measurable need.
