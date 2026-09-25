@@ -54,3 +54,9 @@ credentials
 # Temporary files
 tmp/
 temp/
+
+# Local raw data
+Data Zips/
+
+# Local Streamlit credentials
+.streamlit/secrets.toml
