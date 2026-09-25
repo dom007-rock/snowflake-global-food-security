@@ -1,0 +1,82 @@
+[
+  {
+    "label":"Least Developed Countries (LDCs) + (Total)",
+    "code":"5801",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Least Developed Countries (LDCs) > (List)",
+    "code":"5801>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Land Locked Developing Countries (LLDCs) + (Total)",
+    "code":"5802",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Land Locked Developing Countries (LLDCs) > (List)",
+    "code":"5802>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Small Island Developing States (SIDS) + (Total)",
+    "code":"5803",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Small Island Developing States (SIDS) > (List)",
+    "code":"5803>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Low Income Food Deficit Countries (LIFDCs) + (Total)",
+    "code":"5815",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Low Income Food Deficit Countries (LIFDCs) > (List)",
+    "code":"5815>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Low-income economies + (Total)",
+    "code":"5858",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Low-income economies > (List)",
+    "code":"5858>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Lower-middle-income economies + (Total)",
+    "code":"5859",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Lower-middle-income economies > (List)",
+    "code":"5859>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"High-income economies + (Total)",
+    "code":"9010",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"High-income economies > (List)",
+    "code":"9010>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Upper-middle-income economies + (Total)",
+    "code":"9011",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Upper-middle-income economies > (List)",
+    "code":"9011>",
+    "aggregate_type":">"
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "label":"World + (Total)",
+    "code":"5000",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"World > (List)",
+    "code":"5000>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Africa + (Total)",
+    "code":"5100",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Africa > (List)",
+    "code":"5100>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Eastern Africa + (Total)",
+    "code":"5101",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Eastern Africa > (List)",
+    "code":"5101>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Middle Africa + (Total)",
+    "code":"5102",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Middle Africa > (List)",
+    "code":"5102>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Northern Africa + (Total)",
+    "code":"5103",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Northern Africa > (List)",
+    "code":"5103>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Southern Africa + (Total)",
+    "code":"5104",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Southern Africa > (List)",
+    "code":"5104>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Western Africa + (Total)",
+    "code":"5105",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Western Africa > (List)",
+    "code":"5105>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Americas + (Total)",
+    "code":"5200",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Americas > (List)",
+    "code":"5200>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Northern America + (Total)",
+    "code":"5203",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Northern America > (List)",
+    "code":"5203>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Central America + (Total)",
+    "code":"5204",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Central America > (List)",
+    "code":"5204>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Caribbean + (Total)",
+    "code":"5206",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Caribbean > (List)",
+    "code":"5206>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- South America + (Total)",
+    "code":"5207",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- South America > (List)",
+    "code":"5207>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Latin America and the Caribbean + (Total)",
+    "code":"5205",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Latin America and the Caribbean > (List)",
+    "code":"5205>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Asia + (Total)",
+    "code":"5300",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Asia > (List)",
+    "code":"5300>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Central Asia + (Total)",
+    "code":"5301",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Central Asia > (List)",
+    "code":"5301>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Eastern Asia + (Total)",
+    "code":"5302",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Eastern Asia > (List)",
+    "code":"5302>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Southern Asia + (Total)",
+    "code":"5303",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Southern Asia > (List)",
+    "code":"5303>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- South-eastern Asia + (Total)",
+    "code":"5304",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- South-eastern Asia > (List)",
+    "code":"5304>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Western Asia + (Total)",
+    "code":"5305",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Western Asia > (List)",
+    "code":"5305>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Europe + (Total)",
+    "code":"5400",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Europe > (List)",
+    "code":"5400>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Eastern Europe + (Total)",
+    "code":"5401",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Eastern Europe > (List)",
+    "code":"5401>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Northern Europe + (Total)",
+    "code":"5402",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Northern Europe > (List)",
+    "code":"5402>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Southern Europe + (Total)",
+    "code":"5403",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Southern Europe > (List)",
+    "code":"5403>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Western Europe + (Total)",
+    "code":"5404",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Western Europe > (List)",
+    "code":"5404>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Oceania + (Total)",
+    "code":"5500",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Oceania > (List)",
+    "code":"5500>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Australia and New Zealand + (Total)",
+    "code":"5501",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Australia and New Zealand > (List)",
+    "code":"5501>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Melanesia + (Total)",
+    "code":"5502",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Melanesia > (List)",
+    "code":"5502>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Micronesia + (Total)",
+    "code":"5503",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Micronesia > (List)",
+    "code":"5503>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"-- Polynesia + (Total)",
+    "code":"5504",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"-- Polynesia > (List)",
+    "code":"5504>",
+    "aggregate_type":">"
+  }
+]

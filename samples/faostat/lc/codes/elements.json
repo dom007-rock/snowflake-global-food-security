@@ -1,0 +1,22 @@
+[
+  {
+    "label":"Area from CGLS",
+    "code":"5006",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Area from MODIS",
+    "code":"5007",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Area from CCI_LC",
+    "code":"5008",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Area from WorldCover",
+    "code":"5013",
+    "aggregate_type":"0"
+  }
+]

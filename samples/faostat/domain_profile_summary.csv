@@ -1,0 +1,7 @@
+domain,dimensions,subdimensions,code_counts
+QCL,"area, element, item, year","countries, regions, specialgroups, elements, items, itemsagg, years","{""countries"": 210, ""elements"": 5, ""items"": 283, ""itemsagg"": 55, ""regions"": 56, ""specialgroups"": 12, ""years"": 64}"
+LC,"area, element, item, year","countries, regions, specialgroups, elements, items, years","{""countries"": 248, ""elements"": 4, ""items"": 14, ""regions"": 56, ""specialgroups"": 12, ""years"": 33}"
+ESB,"area, element, item, year","countries, regions, specialgroups, elements, items, itemsagg, years","{""countries"": 211, ""elements"": 9, ""items"": 9, ""itemsagg"": 4, ""regions"": 56, ""specialgroups"": 18, ""years"": 63}"
+FBS,"area, element, item, year","countries, regions, specialgroups, elements, items, itemsagg, years","{""countries"": 179, ""elements"": 21, ""items"": 99, ""itemsagg"": 48, ""regions"": 56, ""specialgroups"": 12, ""years"": 14}"
+GT,"area, element, item, year, source","countries, regions, specialgroups, elements, items, itemsagg, years, yearproj, sources, sourcesagg","{""countries"": 243, ""elements"": 9, ""items"": 30, ""itemsagg"": 40, ""regions"": 58, ""sources"": 1, ""sourcesagg"": 1, ""specialgroups"": 18, ""yearproj"": 2, ""years"": 63}"
+FS,"area, element, item, year3","countries, regions, specialgroups, elements, items, years3","{""countries"": 204, ""elements"": 2, ""items"": 59, ""regions"": 68, ""specialgroups"": 16, ""years3"": 26}"

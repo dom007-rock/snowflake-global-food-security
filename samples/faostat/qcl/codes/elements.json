@@ -1,0 +1,27 @@
+[
+  {
+    "label":"Area harvested",
+    "code":"2312",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Yield",
+    "code":"2413",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Production Quantity",
+    "code":"2510",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Stocks",
+    "code":"2111",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Producing Animals\/Slaughtered",
+    "code":"2313",
+    "aggregate_type":"0"
+  }
+]

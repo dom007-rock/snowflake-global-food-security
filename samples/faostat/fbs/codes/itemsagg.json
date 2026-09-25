@@ -1,0 +1,242 @@
+[
+  {
+    "label":"Grand Total + (Total)",
+    "code":"2901",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Grand Total > (List)",
+    "code":"2901>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Vegetal Products + (Total)",
+    "code":"2903",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Vegetal Products > (List)",
+    "code":"2903>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Animal Products + (Total)",
+    "code":"2941",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Animal Products > (List)",
+    "code":"2941>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Cereals - Excluding Beer + (Total)",
+    "code":"2905",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Cereals - Excluding Beer > (List)",
+    "code":"2905>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Starchy Roots + (Total)",
+    "code":"2907",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Starchy Roots > (List)",
+    "code":"2907>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Sugar Crops + (Total)",
+    "code":"2908",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Sugar Crops > (List)",
+    "code":"2908>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Sugar & Sweeteners + (Total)",
+    "code":"2909",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Sugar & Sweeteners > (List)",
+    "code":"2909>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Pulses + (Total)",
+    "code":"2911",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Pulses > (List)",
+    "code":"2911>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Treenuts + (Total)",
+    "code":"2912",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Treenuts > (List)",
+    "code":"2912>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Oilcrops + (Total)",
+    "code":"2913",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Oilcrops > (List)",
+    "code":"2913>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Vegetable Oils + (Total)",
+    "code":"2914",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Vegetable Oils > (List)",
+    "code":"2914>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Vegetables + (Total)",
+    "code":"2918",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Vegetables > (List)",
+    "code":"2918>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Fruits - Excluding Wine + (Total)",
+    "code":"2919",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Fruits - Excluding Wine > (List)",
+    "code":"2919>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Stimulants + (Total)",
+    "code":"2922",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Stimulants > (List)",
+    "code":"2922>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Spices + (Total)",
+    "code":"2923",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Spices > (List)",
+    "code":"2923>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Alcoholic Beverages + (Total)",
+    "code":"2924",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Alcoholic Beverages > (List)",
+    "code":"2924>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Meat + (Total)",
+    "code":"2943",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Meat > (List)",
+    "code":"2943>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Offals + (Total)",
+    "code":"2945",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Offals > (List)",
+    "code":"2945>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Animal fats + (Total)",
+    "code":"2946",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Animal fats > (List)",
+    "code":"2946>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Eggs + (Total)",
+    "code":"2949",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Eggs > (List)",
+    "code":"2949>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Milk - Excluding Butter + (Total)",
+    "code":"2948",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Milk - Excluding Butter > (List)",
+    "code":"2948>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Fish, Seafood + (Total)",
+    "code":"2960",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Fish, Seafood > (List)",
+    "code":"2960>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Aquatic Products, Other + (Total)",
+    "code":"2961",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Aquatic Products, Other > (List)",
+    "code":"2961>",
+    "aggregate_type":">"
+  },
+  {
+    "label":"Miscellaneous + (Total)",
+    "code":"2928",
+    "aggregate_type":"+"
+  },
+  {
+    "label":"Miscellaneous > (List)",
+    "code":"2928>",
+    "aggregate_type":">"
+  }
+]

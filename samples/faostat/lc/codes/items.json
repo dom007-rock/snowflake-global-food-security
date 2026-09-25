@@ -1,0 +1,72 @@
+[
+  {
+    "label":"Artificial surfaces (including urban and associated areas)",
+    "code":"6970",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Herbaceous crops",
+    "code":"6971",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Woody crops",
+    "code":"6972",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Multiple or layered crops",
+    "code":"6973",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Grassland",
+    "code":"6983",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Tree-covered areas",
+    "code":"6974",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Mangroves",
+    "code":"6975",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Shrub-covered areas",
+    "code":"6976",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Shrubs and\/or herbaceous vegetation, aquatic or regularly flooded",
+    "code":"6977",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sparsely natural vegetated areas",
+    "code":"6978",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Terrestrial barren land",
+    "code":"6979",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Permanent snow and glaciers",
+    "code":"6980",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Inland water bodies",
+    "code":"6981",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Coastal water bodies and intertidal areas",
+    "code":"6982",
+    "aggregate_type":"0"
+  }
+]

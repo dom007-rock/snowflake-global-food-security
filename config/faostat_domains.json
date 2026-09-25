@@ -1,0 +1,38 @@
+{
+  "analysis_period": {
+    "start_year": 2010,
+    "end_year": 2023
+  },
+  "domains": {
+    "land_cover": {
+      "code": "LC",
+      "name": "Land Cover",
+      "pillar": "resources"
+    },
+    "cropland_nutrient_balance": {
+      "code": "ESB",
+      "name": "Cropland Nutrient Balance",
+      "pillar": "sustainability"
+    },
+    "crops_livestock_products": {
+      "code": "QCL",
+      "name": "Crops and livestock products",
+      "pillar": "production"
+    },
+    "food_balances": {
+      "code": "FBS",
+      "name": "Food Balances (2010-)",
+      "pillar": "food_supply"
+    },
+    "emissions_totals": {
+      "code": "GT",
+      "name": "Emissions totals",
+      "pillar": "climate"
+    },
+    "food_security_indicators": {
+      "code": "FS",
+      "name": "Suite of Food Security Indicators",
+      "pillar": "food_security_nutrition"
+    }
+  }
+}

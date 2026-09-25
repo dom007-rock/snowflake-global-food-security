@@ -1,0 +1,497 @@
+[
+  {
+    "label":"Population",
+    "code":"2501",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Wheat and products",
+    "code":"2511",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Rice and products",
+    "code":"2807",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Barley and products",
+    "code":"2513",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Maize and products",
+    "code":"2514",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Rye and products",
+    "code":"2515",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Oats",
+    "code":"2516",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Millet and products",
+    "code":"2517",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sorghum and products",
+    "code":"2518",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cereals, other",
+    "code":"2520",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cassava and products",
+    "code":"2532",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Potatoes and products",
+    "code":"2531",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sweet potatoes",
+    "code":"2533",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Yams",
+    "code":"2535",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Roots, Other",
+    "code":"2534",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sugar cane",
+    "code":"2536",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sugar beet",
+    "code":"2537",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sugar non-centrifugal",
+    "code":"2541",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sugar (Raw Equivalent)",
+    "code":"2542",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sweeteners, Other",
+    "code":"2543",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Honey",
+    "code":"2745",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Beans",
+    "code":"2546",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Peas",
+    "code":"2547",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Pulses, Other and products",
+    "code":"2549",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Nuts and products",
+    "code":"2551",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Soyabeans",
+    "code":"2555",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Groundnuts",
+    "code":"2552",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sunflower seed",
+    "code":"2557",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Rape and Mustardseed",
+    "code":"2558",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cottonseed",
+    "code":"2559",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Coconuts - Incl Copra",
+    "code":"2560",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sesame seed",
+    "code":"2561",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Palm kernels",
+    "code":"2562",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Olives (including preserved)",
+    "code":"2563",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Oilcrops, Other",
+    "code":"2570",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Soyabean Oil",
+    "code":"2571",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Groundnut Oil",
+    "code":"2572",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sunflowerseed Oil",
+    "code":"2573",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Rape and Mustard Oil",
+    "code":"2574",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cottonseed Oil",
+    "code":"2575",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Palmkernel Oil",
+    "code":"2576",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Palm Oil",
+    "code":"2577",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Coconut Oil",
+    "code":"2578",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Sesameseed Oil",
+    "code":"2579",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Olive Oil",
+    "code":"2580",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Ricebran Oil",
+    "code":"2581",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Maize Germ Oil",
+    "code":"2582",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Oilcrops Oil, Other",
+    "code":"2586",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Tomatoes and products",
+    "code":"2601",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Onions",
+    "code":"2602",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Vegetables, other",
+    "code":"2605",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Oranges, Mandarines",
+    "code":"2611",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Lemons, Limes and products",
+    "code":"2612",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Grapefruit and products",
+    "code":"2613",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Citrus, Other",
+    "code":"2614",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Bananas",
+    "code":"2615",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Plantains",
+    "code":"2616",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Apples and products",
+    "code":"2617",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Pineapples and products",
+    "code":"2618",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Dates",
+    "code":"2619",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Grapes and products (excl wine)",
+    "code":"2620",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Fruits, other",
+    "code":"2625",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Coffee and products",
+    "code":"2630",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cocoa Beans and products",
+    "code":"2633",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Tea (including mate)",
+    "code":"2635",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Pepper",
+    "code":"2640",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Pimento",
+    "code":"2641",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cloves",
+    "code":"2642",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Spices, Other",
+    "code":"2645",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Wine",
+    "code":"2655",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Beer",
+    "code":"2656",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Beverages, Fermented",
+    "code":"2657",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Beverages, Alcoholic",
+    "code":"2658",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Alcohol, Non-Food",
+    "code":"2659",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Bovine Meat",
+    "code":"2731",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Mutton & Goat Meat",
+    "code":"2732",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Pigmeat",
+    "code":"2733",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Poultry Meat",
+    "code":"2734",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Meat, Other",
+    "code":"2735",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Offals, Edible",
+    "code":"2736",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Butter, Ghee",
+    "code":"2740",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cream",
+    "code":"2743",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Fats, Animals, Raw",
+    "code":"2737",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Fish, Body Oil",
+    "code":"2781",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Fish, Liver Oil",
+    "code":"2782",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Eggs",
+    "code":"2744",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Milk - Excluding Butter",
+    "code":"2848",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Freshwater Fish",
+    "code":"2761",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Demersal Fish",
+    "code":"2762",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Pelagic Fish",
+    "code":"2763",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Marine Fish, Other",
+    "code":"2764",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Crustaceans",
+    "code":"2765",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Cephalopods",
+    "code":"2766",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Molluscs, Other",
+    "code":"2767",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Aquatic Animals, Others",
+    "code":"2769",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Meat, Aquatic Mammals",
+    "code":"2768",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Aquatic Plants",
+    "code":"2775",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Infant food",
+    "code":"2680",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Miscellaneous",
+    "code":"2899",
+    "aggregate_type":"0"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "label":"Mineral fertilizers",
+    "code":"5087",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Manure applied",
+    "code":"5089",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Atmospheric deposition",
+    "code":"5076",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Crop harvest removal",
+    "code":"5077",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Crop residue removal",
+    "code":"5088",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Biological fixation",
+    "code":"5078",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Seed",
+    "code":"5086",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Leaching",
+    "code":"5082",
+    "aggregate_type":"0"
+  },
+  {
+    "label":"Volatilisation",
+    "code":"5083",
+    "aggregate_type":"0"
+  }
+]

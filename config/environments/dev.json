@@ -1,0 +1,10 @@
+{
+  "environment": "dev",
+  "aws": {
+    "s3_bucket": "gfs-delta-dev-kush01",
+    "delta_root": "delta"
+  },
+  "snowflake": {
+    "database": "GFS_DEV"
+  }
+}
